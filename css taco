@@ -311,6 +311,80 @@ h3{
 	color: #aaa;
 }
 
+/*------about-----*/
+.about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4a7c59;
+}
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+}
+.team{
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+}
+.team:hover{
+  border-radius: 5px;
+  height: 350px;
+}
+.team.img{
+  position: center;
+  width: 20%;
+  height: 50%;
+  transition: .6s;
+  z-index: 99;
+}
+.team:hover .img{
+  transform: translateY(-60px);
+}
+.img img{
+  width: 100%;
+  border-radius: 70%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+}
+.profile-card:hover img{
+  border-radius: 10px;
+}
+.caption{
+  text-align: center;
+  transform: translateY(-70px);
+  opacity: 0;
+  transition: .6s;
+}
+.team:hover .caption{
+  opacity: 1;
+}
+.caption h3{
+  font-size: 19px;
+}
+.caption p{
+  font-size: 15px;
+  color: #0c52a1;
+  margin: 10px 0 1px 0;
+}
+.caption .social-links a{
+  color: #333;
+  margin-right: 8px;
+  font-size: 21px;
+  transition: .6s;
+}
+.social-links a:hover{
+  color: #0c52a1;
+}
 html, body {
 	scroll-behavior: smooth;
 }	
