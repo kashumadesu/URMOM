@@ -8,6 +8,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
 
@@ -85,9 +86,68 @@
     </div>	  
 </section>
 <!--------about----->
-<section>
-
-
+<sectiom>
+  <div class="about">
+		<div class="center">
+			<h1>OUR TEAM</h1>
+		</div>
+        <div class="team">
+            <div class="img">
+                <img src="img/blu.jpg">
+            </div>
+            <div class="caption">
+                <h3>Blu Harry A. Dela Cruz</h3>
+                <p>Assistant Manager</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="img">
+                <img src="img/kristin.jpeg">
+            </div>
+            <div class="caption">
+                <h3>Kristin C. Dionicio</h3>
+                <p>Chief Executive Officer <br>(CEO)</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="img">
+                <img src="img/jovan.jpeg">
+            </div>
+            <div class="caption">
+                <h3>Jovan Lanueva</h3>
+                <p>Head Chef</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+		<div class="team">
+            <div class="img">
+                <img src="img/nor.jpeg">
+            </div>
+            <div class="caption">
+                <h3>Norhaifah Esmael</h3>
+                <p>Financial Manager</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 <!-------contact------->
 <section id="contact">
