@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="with=device=-width, initial-scale=1.0">
+<title>Veggie Wrap</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<section class="header">
+<nav>
+<a href="taco.html"><img src="img/img10.jpeg" width="90px" height="90px"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+<li><a href="">HOME</a></li>
+<li><a href="#course">PRODUCT</a></li> 
+<li><a href="#blog">BLOG</a></li> 
+<li><a href="">ABOUT</a></li> 
+<li><a href="#contact">CONTACT</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+
+<div class="text-box">
+<h1>World's Most Famous Taco</h1>
+<p>Making the best taco is now one of the easiest thing in the world. <br>You just need to learn with the best taco makers.</p>
+<a href="" class="hero-btn">Visit Us To Know More</a>
+</div>
+</section>
+
+<!----- course ----->
+<section id="course">
+<h1>Tacos We Offer</h1>
+<p>TACO! TACO! TACO!</p>
+<div class="row">
+<div class="course-col">
+     <h3>Menu</h3>
+	 <p>Taco with a twist using gabbage as taco shell</p>
+</div>
+<div class="course-col">
+     <h3>Menu</h3>
+	 <p>Taco with a twist using gabbage as taco shell</p>
+</div>
+<div class="course-col">
+     <h3>Menu</h3>
+	 <p>Taco with a twist using gabbage as taco shell</p>
+</div>
+</div>
+</section>
+
+<!------blog---->
+<section id="blog">
+      <h1>Our taco is the best!</h1>
+	  <p>We have the best taco in the world by choosing the fresh ingredients</p>
+	  
+	  <div class="row">
+		<div class="blog-col">
+			<img src="img/img5.jpg" width='250px'>
+				<div class="layer">
+					<h3>Vegan Wrap!</h3>
+				</div>
+			</div>	
+		<div class="blog-col">
+			<img src="img/img9.jpg" width='250px'>
+				<div class="layer">
+					<h3>It's a Wrap!</h3>
+				</div>
+		</div>
+		<div class="blog-col">
+			<img src="img/img1.png" width='250px'>
+				<div class="layer">
+					<h3>Taco Tuesssdayy!</h3>
+				</div>	
+		</div>
+		
+	  </div>
+	  
+    </div>	  
+</section>
+<!--------about----->
+<section>
+
+
+</section>
+<!-------contact------->
+<section id="contact">
+	<h1>Contact Us For More Details</h1>
+	<a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!------Footer ----->
+
+<section class="footer">
+	<h4>About Us</h4>
+	<p>For Orders and Reservations You Can Reach Out Thru Our Social Media Accounts</p>
+	<div class="icons">
+	<a href="#"><i class="fab fa-facebook"></i></a>
+	<a href="#"><i class="fab fa-twitter"></i></a>
+	<a href="#"><i class="fab fa-instagram"></i></a>
+	</div>
+	
+	<ul class="list">
+		<li>
+			<a href="#">Terms</a>
+		</li>
+		<li>
+			<a href="#">Privacy Policy</a>
+		</li>
+		<li>
+			<a href="#">Services</a>
+		</li>
+	</ul>
+	<p class="copyright">
+		Veggie Wrap Corporation @ 2023
+	</p>
+</section>	
+
+<button class="scrollup" id="scroller">^</button>
+
+<!-----javasrpt------>
+
+<script>
+
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+     navLinks.style.right = "0";
+}
+function hideMenu(){
+     navLinks.style.right = "-200px";
+}
+
+var scrollup = document.getElementById("scroller");
+
+scrollup.addEventListener("click", () => {
+	window.scroll({ top: 0, behavior: "smooth" });
+});
+</script>
+
+</body>
+</html>
