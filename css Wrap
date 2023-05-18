@@ -14,7 +14,7 @@
 }	
 nav{
 	display: flex;
-	padding: 2% 6%;
+	padding: 2% 5%;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -58,6 +58,8 @@ new img{
 }
 .text-box h1{
 	font-size: 62px;
+	color: #D8E9A8;
+	text-shadow: 4px 1px #1E5128;
 }
 .text-box p{
 	color: #fff;
@@ -78,7 +80,6 @@ new img{
 .hero-btn:hover{
 	border: 1px solid #f44336;
 	background: #179007;
-	transition: 1s;
 }
 
 nav .fa{
@@ -117,7 +118,7 @@ nav .fa{
 
 /*------course-----*/
 
-#course{
+#product{
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -125,11 +126,13 @@ nav .fa{
 	padding-bottom: 300px;
 	padding-right: 100px;
 	padding-left: 100px;
-	background-color: #8fc0a9;
+	background: rgb(78,159,61);
+	background: linear-gradient(180deg, rgba(78,159,61,1) 32%, rgba(216,233,168,1) 97%);
 }
 h1{
 	font-size: 50px;
 	font-weight: 600;
+	text-shadow: 2px 2px #fff;
 }
 
 p{
@@ -145,11 +148,11 @@ p{
 	display: flex;
 	justify-content: space-between;
 }
-.course-col{
+.product-col{
 	flex-basis: 31%;
     background: #fff3f3;
 	border-radius: 20px;
-	margin-bottom: 5%;
+	margin-bottom: 10%;
 	padding: 75px 15px;
 	box-sizing: border-box;
 	user-select: none;
@@ -159,7 +162,7 @@ h3{
 	font-weight: 600;
 	margin: 10px 0;
 }
-.course-col:hover{
+.product-col:hover{
 	box-shadow:0 0 75px 0px rgba(0,0,0,0.2);
 	transition: all 200ms ease;
 }
@@ -179,7 +182,8 @@ h3{
 	padding-bottom: 200px;
 	padding-right: 100px;
 	padding-left: 100px;
-	background-color: #68b0ab;
+	background: rgb(216,233,168);
+	background: linear-gradient(180deg, rgba(216,233,168,1) 32%, rgba(30,81,40,1) 97%);
 }
 .blog-col{
 	flex-basis: 32%;
@@ -221,6 +225,82 @@ h3{
 	bottom: 49%;
 	opacity: 1;
 }
+/*------about-----*/
+#about{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1E5128;
+}
+.center h1{
+	color: #fff;
+	font-size: 4rem;
+	text-align: center;
+	text-shadow: 0px 0px;
+}
+.team{
+  position: relative;
+  width: 220px;
+  height: 220px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+  margin: 0 25px;
+}
+.team:hover{
+  border-radius: 5px;
+  height: 350px;
+}
+.team.img{
+  position: center;
+  width: 20%;
+  height: 50%;
+  transition: .6s;
+  z-index: 99;
+}
+.team:hover .img{
+  transform: translateY(-60px);
+}
+.img img{
+  width: 100%;
+  border-radius: 70%;
+  box-shadow: 0 0 22px #3336;
+  transition: .6s;
+}
+.profile-card:hover img{
+  border-radius: 10px;
+}
+.caption{
+  text-align: center;
+  transform: translateY(-70px);
+  opacity: 0;
+  transition: .6s;
+}
+.team:hover .caption{
+  opacity: 1;
+}
+.caption h3{
+  font-size: 19px;
+}
+.caption p{
+  font-size: 15px;
+  color: #0c52a1;
+  margin: 10px 0 1px 0;
+}
+.caption .social-links a{
+  color: #333;
+  margin-right: 8px;
+  font-size: 21px;
+  transition: .6s;
+}
+.social-links a:hover{
+  color: #0c52a1;
+}
+
 /*------Contact------*/
 
 #contact{
@@ -232,13 +312,13 @@ h3{
 	border-radius: 10px;
 	text-align: center;
 	padding: 100px 0;
-	color: #ffffff;
 }
 
 .contact h1{
 	color: #fff;
 	margin-bottom: 40px;
 	padding: 0;
+	text-shadow: 0px 0px;
 }
 
 /*------footer------*/
@@ -311,80 +391,6 @@ h3{
 	color: #aaa;
 }
 
-/*------about-----*/
-.about{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #4a7c59;
-}
-.center h1{
-	color: #fff;
-	font-size: 4rem;
-	text-align: center;
-}
-.team{
-  position: relative;
-  width: 220px;
-  height: 220px;
-  background: #fff;
-  padding: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0 22px #3336;
-  transition: .6s;
-  margin: 0 25px;
-}
-.team:hover{
-  border-radius: 5px;
-  height: 350px;
-}
-.team.img{
-  position: center;
-  width: 20%;
-  height: 50%;
-  transition: .6s;
-  z-index: 99;
-}
-.team:hover .img{
-  transform: translateY(-60px);
-}
-.img img{
-  width: 100%;
-  border-radius: 70%;
-  box-shadow: 0 0 22px #3336;
-  transition: .6s;
-}
-.profile-card:hover img{
-  border-radius: 10px;
-}
-.caption{
-  text-align: center;
-  transform: translateY(-70px);
-  opacity: 0;
-  transition: .6s;
-}
-.team:hover .caption{
-  opacity: 1;
-}
-.caption h3{
-  font-size: 19px;
-}
-.caption p{
-  font-size: 15px;
-  color: #0c52a1;
-  margin: 10px 0 1px 0;
-}
-.caption .social-links a{
-  color: #333;
-  margin-right: 8px;
-  font-size: 21px;
-  transition: .6s;
-}
-.social-links a:hover{
-  color: #0c52a1;
-}
 html, body {
 	scroll-behavior: smooth;
 }	
